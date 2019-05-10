@@ -7,13 +7,6 @@ class Unoconv < Formula
   version "0.8.2"
   head "https://github.com/unoconv/unoconv.git"
 
-  bottle do
-    cellar :any_skip_relocation
-    sha256 "07a0230f3b34e5d3566bf167320563d7923deb380e78c6d8380f7f2b56f0b50b" => :mojave
-    sha256 "af451c29611a9fed41fb2b68984a20f80ff9a812a23c28233878ee84fb8dc208" => :high_sierra
-    sha256 "af451c29611a9fed41fb2b68984a20f80ff9a812a23c28233878ee84fb8dc208" => :sierra
-  end
-
   depends_on "python"
 
   def install
