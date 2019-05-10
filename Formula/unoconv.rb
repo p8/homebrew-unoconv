@@ -3,7 +3,8 @@ class Unoconv < Formula
   homepage "http://dag.wiee.rs/home-made/unoconv/"
   url "https://github.com/unoconv/unoconv/archive/master.zip"
   sha256 "2b5bf10177b1d14fe8521636e903dee6e6241c2d0b277ef205a771756e41bbb8"
-  revision 1
+  revision 2
+  version "0.8.2"
   head "https://github.com/unoconv/unoconv.git"
 
   bottle do
