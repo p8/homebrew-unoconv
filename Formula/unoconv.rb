@@ -1,7 +1,7 @@
 class Unoconv < Formula
   desc "Convert between any document format supported by OpenOffice"
   homepage "http://dag.wiee.rs/home-made/unoconv/"
-  url "https://github.com/unoconv/unoconv/archive/master.zip"
+  url "https://github.com/unoconv/unoconv/archive/63f6b13b6b027b9d552b445dacc8316d7a276043.zip"
   sha256 "2b5bf10177b1d14fe8521636e903dee6e6241c2d0b277ef205a771756e41bbb8"
   revision 2
   version "0.8.2"
